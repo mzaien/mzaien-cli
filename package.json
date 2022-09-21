@@ -1,13 +1,19 @@
 {
   "name": "mzaien",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a cli to know about abdullah mzaien",
   "main": "index.js",
   "repository": "https://github.com/mzaien/mzaien-cli.git",
   "author": "abdullah Mzaien <xa300600@hotmail.com>",
   "license": "MIT",
   "private": false,
-  "keywords": ["cli","mzaien","node","typescript","abdullah mzaien"],
+  "keywords": [
+    "cli",
+    "mzaien",
+    "node",
+    "typescript",
+    "abdullah mzaien"
+  ],
   "scripts": {
     "dev": "tsx watch index.ts",
     "prepublish": "tsc index.ts"
