@@ -12,7 +12,8 @@
   "private": false,
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "cli",
