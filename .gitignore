@@ -102,4 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
-index.js
+# npm stuff
+dist
+src/index.js
