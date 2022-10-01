@@ -1,6 +1,6 @@
 {
   "name": "mzaien",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "a cli to know about abdullah mzaien",
   "exports": "./index.js",
   "engines": {
