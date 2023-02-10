@@ -42,27 +42,27 @@ type responseType = {
         }
         const data = await res.json() as responseType;
         console.log(`
-Hey there 👋 My name is Abdullah Mzaien a ${data.bio} at ${data.company}
+        Hey there 👋 my name is Abdullah Mzaien a ${data.bio} at ${data.company}
 
-I usually work on ⚛️:
-- React
-- Typescript
-- Css
-- Node/Python
-- Some SQL
-
-My free time is spent on these things ⚡️
-- Give stars to cool projects on github 😁 ❤️, If possible I contribute to them
-- Try new technologies too that looks interesting e.g Astro, Solid, Golang
-- Try design tools specially design-code tools (framer)
-- Enhance my current knowledge in web development
-- Build some goodies that help me or others e.g https://github.com/mzaien/adhan-time
-
-Find me here :
-- 🐦 https://twitter.com/mzaien_
-- 🦑 https://github.com/mzaien
-- 📥 https://www.linkedin.com/in/mzaien
-- 🌐 ${data.blog} (I need to make my own ⏲ 😂 have this for the meanwhile)
+        I usually work on ⚛️:
+        - React
+        - Typescript
+        - Css/Scss
+        - Node/Python
+        - Some SQL
+        
+        I spend my free time on 
+        - Give stars to cool projects on GitHub 😁 ❤️ and if possible, I'll contribute to them
+        - Stretch new technologies too that look interesting e.g Astro, Solid, Unocss
+        - Improving my current knowledge in accessibility, user experience / interface design, performance
+        - Build some goodies that have value to others or fun to make e.g https://github.com/mzaien/adhan-time
+        
+        Find me here:
+        - 🐦 https://twitter.com/mzaien_
+        - 🦑 https://github.com/mzaien
+        - 📥 https://www.linkedin.com/in/mzaien
+        - 📫 awmzaien@gmail.com
+        - 📲 https://cal.com/mzaien        
 `)
     } catch (err) {
         console.error(err);
